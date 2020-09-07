@@ -64,9 +64,14 @@ Be sure to:
 Next, look at the ngrams and word frequency for each coin.
 
 1. Use NLTK to produce the ngrams for N = 2.
-2. List the top 10 words for each coin.
 
 ![N-grams](Images/ngrams.JPG)
+
+2. List the top 10 words for each coin.
+
+![10-words_btc](Images/btc_tokens_10words.JPG)
+![10-words_eth](Images/ethereum_tokens_10words.JPG)
+
 
 #### Word Clouds
 
