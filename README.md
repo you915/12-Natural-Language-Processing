@@ -32,12 +32,17 @@ Use the [newsapi](https://newsapi.org/) to pull the latest news articles for Bit
 
 Use descriptive statistics to answer the following questions:
 
-> Which coin had the highest mean positive score?
->
-> Which coin had the highest negative score?
->
-> Which coin had the highest positive score?
+![sentiment analysis](Images/btc_sentiment.JPG)
+![sentiment analysis](Images/ethereum_sentiment.JPG)
 
+> Which coin had the highest mean positive score?
+*  Bitcoin - 0.090950
+
+> Which coin had the highest negative score?
+*  Ethereum - 0.8176
+
+> Which coin had the highest positive score?
+*  Ethereum - 0.209
 ---
 
 ### 2 - Natural Language Processing
@@ -52,6 +57,8 @@ Be sure to:
 2. Remove punctuation
 3. Remove stop words
 
+![Tokenize](Images/tokenize.JPG)
+
 #### N-grams
 
 Next, look at the ngrams and word frequency for each coin.
@@ -59,13 +66,15 @@ Next, look at the ngrams and word frequency for each coin.
 1. Use NLTK to produce the ngrams for N = 2.
 2. List the top 10 words for each coin.
 
+![N-grams](Images/ngrams.JPG)
+
 #### Word Clouds
 
 Finally, generate word clouds for each coin to summarize the news for each coin.
 
-![btc-word-cloud.png](Images/btc-word-cloud.png)
+![btc-word-cloud.png](Images/btc-word-cloud.JPG)
 
-![eth-word-cloud.png](Images/eth-word-cloud.png)
+![eth-word-cloud.png](Images/eth-word-cloud.JPG)
 
 ---
 
@@ -73,9 +82,9 @@ Finally, generate word clouds for each coin to summarize the news for each coin.
 
 In this section, you will build a named entity recognition model for both coins and visualize the tags using SpaCy.
 
-![btc-ner.png](Images/btc-ner.png)
+![btc-ner.png](Images/btc-ner.JPG)
 
-![eth-ner.png](Images/eth-ner.png)
+![eth-ner.png](Images/eth-ner.JPG)
 
 ---
 
