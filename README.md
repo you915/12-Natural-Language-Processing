@@ -1,4 +1,4 @@
-# Unit 12—Tales from the Crypto
+# Natural Language Processing - Sentiment Analysis
 
 ![Stock Sentiment](Images/sentimental.jpeg)
 
@@ -21,10 +21,6 @@ Complete the following tasks:
 [Starter Notebook](Starter_Code/crypto_sentiment.ipynb)
 
 ---
-
-## Instructions
-
-----
 
 ### 1 - Sentiment Analysis
 
@@ -96,22 +92,6 @@ In this section, you will build a named entity recognition model for both coins 
 ## Resources
 
 [Vader Sentiment Analysis](http://www.nltk.org/howto/sentiment.html)
-
----
-
-## Hints and Considerations
-
-The free developer version of the News API limits the total monthly requests, so be careful not to exceed the free limits.
-
----
-
-## Submission
-
-* Use the starter Jupyter Notebook provided to conduct the NLP analysis and host the notebook in a GitHub repository.
-
-* In your GitHub repository, include a ReadMe file that uses Markdown to summarize your homework.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
 
 ---
 
